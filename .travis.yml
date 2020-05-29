@@ -11,5 +11,5 @@ before_script:
 
 script:
   - minikube version
-  - minikube start --driver=docker
+  - minikube start # --driver=docker
   - minikube status
